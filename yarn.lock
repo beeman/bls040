@@ -3669,6 +3669,11 @@ image-size@~0.5.0:
   resolved "https://registry.yarnpkg.com/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
   integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
+immer@^9.0.2:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.3.tgz#146e2ba8b84d4b1b15378143c2345559915097f4"
+  integrity sha512-mONgeNSMuyjIe0lkQPa9YhdmTv8P19IeHV0biYhcXhbd5dhdB9HSK93zBpyKjp6wersSUgT5QyU0skmejUVP2A==
+
 import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -4704,6 +4709,22 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+ngrx-immer@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/ngrx-immer/-/ngrx-immer-0.0.5.tgz#b10f0de319580dae928a3b8772f26e8a37743009"
+  integrity sha512-QoCpSH4v+iU6cezOUJUr3BzLuX9Mg75iIzyeNbztudqJbLo3YpbxuiBweJPQZblbGtLN8z2ab50aAG9a9/juxQ==
+  dependencies:
+    tslib "^2.0.0"
+
+ngrx-slice@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ngrx-slice/-/ngrx-slice-1.0.1.tgz#40414be78a53748da49f9b9f720a394d77b39f1f"
+  integrity sha512-AbxF5jDgZC6xZZioje2au7FRyxc3tRXkOLbWU6w81lCXrgpt2aqKKZ/49bIlCw7lAJvoNwVNGr9J1gS9yvo9pQ==
+  dependencies:
+    immer "^9.0.2"
+    ngrx-immer "^0.0.5"
+    tslib "^2.1.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
